@@ -26,7 +26,6 @@ export const usePokemonStore = defineStore("pokemon", {
           })
         );
         this.pokemons = pokemons;
-        console.log(this.pokemons);
       } catch (error) {
         console.log(error.message);
       } finally {
